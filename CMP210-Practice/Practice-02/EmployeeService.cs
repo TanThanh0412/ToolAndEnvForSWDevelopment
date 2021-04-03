@@ -27,6 +27,8 @@ namespace Practice_02
                 case EmployeeType.SeniorManager:
                     factor = 2;
                     break;
+
+                    
             }
 
             var salary = BASIC_SALARY * years * factor;
